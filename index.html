@@ -7,9 +7,53 @@
     <title>Jhaka Naka Movie</title>
     <!-- favicon link tags  -->
     <link rel="shortcut icon" href="./images/icons/cut-board.png" type="image/x-icon">
+    <!-- tailwind css link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind script tags  -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
-    <h2>Jhaka Naka</h2>
-    
+  <!-- start the header tags  -->
+  <header>
+    <div class=" navbar">
+      <nav class="h-24 bg-gray-50 flex justify-between px-4 md:px-20   lg:px-32 text-black ">
+        <div class="nav_logo text-1xl md:text-2xl lg:text-4xl uppercase my-auto font-bold cursor-pointer">
+          <h1>jhaka naka movie</h1>
+        </div>
+        <div class="toggler h-fit p-2 rounded-1xl cursor-pointer border-2 absolute md:hidden right-4 top-6">
+          <span class="after:content-[''] after:block after:h-1 after:rounded-2xl  after:w-8 after:bg-gray-900 ">
+          </span>
+          <span class="after:content-[''] after:block after:h-1 after:rounded-2xl  after:w-8 after:bg-gray-900 after:mt-2">
+          </span>
+          <span class="after:content-[''] after:block after:h-1 after:rounded-2xl  after:w-8 after:bg-gray-900 after:mt-2">
+          </span>
+        </div>
+        <ul class=" absolute hidden md:relative h-screen w-screen md:h-fit ml-0 md:w-fit bg-gray-50  p-4  md:flex mt-24 md:my-auto font-medium  md:mr-0 ">
+          <li class="border-b-2 md:border-0 ml-0 md:ml-8 mt-4 md:mt-0 hover:text-yellow-800"><a href="#">Our Movies</a></li>
+          <li class="border-b-2 md:border-0 ml-0 md:ml-8 mt-4 md:mt-0 hover:text-yellow-800"><a href="#">About Us</a></li>
+          <li class="border-b-2 md:border-0 ml-0 md:ml-8 mt-4 md:mt-0 hover:text-yellow-800"><a href="#">Servies</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+    <!-- start the main tags  -->
+    <main>
+
+    </main>
+    <!-- start the footer tags  -->
+    <footer>
+
+    </footer>
 </body>
 </html>
